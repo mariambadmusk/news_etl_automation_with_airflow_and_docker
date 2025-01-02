@@ -41,6 +41,9 @@ POSTGRES_PASSWORD=airflow
 POSTGRES_DB=airflow
 PGADMIN_DEFAULT_EMAIL=admin@admin.com
 PGADMIN_DEFAULT_PASSWORD=admin
+
+NEWSDATA_API_KEY =
+
 ```
 
 ### Additional Information
