@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "news-etl"
+version = "0.1.0"
+description = "For news_etl"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.12"
+flask = "2.2.5"
+click = "8.1.7"
+jinja2 = "3.1.4"
+werkzeug = "2.2.3"
+sqlalchemy = "1.4.54"
+psycopg2 = "2.9.10"
+pandas = "2.1.4"
+python-dotenv = "1.0.1"
+transformers = "^4.47.1"
+newsdataapi = "^0.1.21"
+torch = "^2.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
